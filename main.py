@@ -17,7 +17,7 @@ while(stop == False):
     else:
         print("Number is invalid")
     
-    quitting = input("Do you want to quite the application (Y/N)")
+    quitting = input("Do you want to quit the application (Y/N)")
     if quitting == 'Y':
         stop = True
         break
